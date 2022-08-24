@@ -7,6 +7,7 @@ public class Main {
 
         double index;
         index = service.calculate (weight, growth) ;
+        System.out.println("Ваш индекс массы тела составляет:");
         System.out.println (index); }
 
 
